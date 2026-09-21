@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<title>THIS TAB</title>
+<body style="font-family: sans-serif"></body>
+<h1>Kami's Cooltime Website</h1>
+<hr />
+
+<a href="./public/Contact.html">
+	<img src="./Assets/Contact.png"></img>
+</a>
+
+<hr />
+<ol type="i" >
+	<li><a href="https://www.youtube.com/watch?v=sYOUFGfK4bU">Who</a>
+	<li><a href="https://www.youtube.com/watch?v=6ETjwNs3Qus">What </a>
+	<li type="1"><a href="https://www.youtube.com/watch?v=ZK5HA5baxBo">I Don't Know</a>
+</ol>
+
+<hr>
+
+<h2>HEY CLICK THIS COOL GUY</h2>
+<button id="ASong" onClick="playPause()">
+  <audio
+    src="./Assets/coolguy.mp3"
+    autoplay
+  ></audio>
+  <img width="300" height="550"    src="./Assets/Cool Guy.jpg" alt="What the hell are you talking about?"/>
+</button>
+
+<script>
+  var aud = document.getElementById("ASong").children[0];
+  var isPlaying = false;
+  aud.pause();
+
+  function playPause() {
+    if (isPlaying) {
+      aud.pause();
+    } else {
+      aud.play();
+    }
+    isPlaying = !isPlaying;
+  }
+</script>
+
+<HR />
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis mi at est rutrum, id pellentesque est porttitor. Integer sodales, nulla in iaculis venenatis, lacus nisl placerat metus, sed bibendum odio justo at urna. Ut dapibus porttitor mauris, et dignissim eros lobortis eu. Vivamus tortor ex, consequat malesuada sollicitudin ac, ultrices eu eros. Nulla nec sem leo. Ut at sodales urna. Quisque mi mi, luctus in augue et, bibendum facilisis quam. Pellentesque sagittis felis lorem, vel scelerisque diam faucibus ut. Mauris feugiat neque non suscipit pulvinar. Pellentesque posuere ligula non fringilla sagittis. Suspendisse metus nibh, eleifend quis ex a, lobortis congue orci.</p>
+<br />
+<p>Mauris in ligula a diam fermentum interdum sed vel erat. Nunc laoreet metus leo, at auctor mi tempus tristique. Cras rhoncus suscipit commodo. Sed vel risus elementum, euismod lacus eu, consectetur elit. Integer libero odio, congue quis venenatis quis, dignissim vel leo. Fusce blandit turpis quis felis malesuada rhoncus. Sed lobortis leo et urna ultricies dictum. </p>
+
+
+<ul>
+	<li>A</li>
+	<li>B</li>
+		<ul>
+		  <li><h2>Ba</h2></li>
+		  <li>Bb
+			<ol>
+			   <li>Bb1</li>
+			   <li>Bb2</li>
+			   <li>Bb3</li>
+			</ol>
+		</li>
+		  <li>Bc
+		</ul>
+	<li>C</li>
+</ul>
+
+<p hidden>Spooky</p><br>
+Spooky
+
+<ol>
+	<li>Spooky Time</li>
+	<li>Scary Time</li>
+	<li hidden>WHERE AM I</li>
+	<li>Ghost Time</li>
+</ol>
+
+<h2 draggable="false"> <EM>
+Face the facts, I see through the fuckin' act<br>
+I am true, and now I must break you <br>
+Waste your life and pay the price (Pay the price) <br>
+Life is hard, be harder <br></EM>
+</h2>
+
+<h1><a href="./public/spooky.html"> ONLY BRAVE BOYS SHOULD CLICK THIS LINK!!!</a></h1>
+
+</html>
