@@ -4,8 +4,26 @@ html {
     text-align: center;
     list-style-position: inside;
     font-family: sans-serif;
-    .backbutton {
-        align-items: left;
+    #backbutton {
+        display: block;
+        text-align: left;
         color:white;
+        
     }
+    
+}
+
+ul {
+    color: silver;
+    font-style: italic;
+}
+
+.quote{
+    font-size: small;
+    font-style: oblique;
+    opacity: .33;
+}
+
+.hidden{
+    opacity: 0;
 }
