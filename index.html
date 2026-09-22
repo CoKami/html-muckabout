@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<title>THIS TAB</title>
-<body style="font-family: sans-serif"></body>
+<head>
+	<title>Learning Stuff</title>
+	<link
+		rel="stylesheet"
+		href="./styles.css"
+		/>
+<a href="./public/Contact.html">Contact</a>
+<a href="./public/CoolGuys.html">Cool Guys</a>
+<a href="./public/spooky.html">Spooky</a>
+</head>
+<body>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <h1>Kami's Cooltime Website</h1>
 <hr />
 
@@ -17,33 +27,8 @@
 	<li type="1"><a href="https://www.youtube.com/watch?v=ZK5HA5baxBo">I Don't Know</a>
 </ol>
 
-<hr>
+<hr/>
 
-<h2>HEY CLICK THIS COOL GUY</h2>
-<button id="ASong" onClick="playPause()">
-  <audio
-    src="./Assets/coolguy.mp3"
-    autoplay
-  ></audio>
-  <img width="300" height="550"    src="./Assets/Cool Guy.jpg" alt="What the hell are you talking about?"/>
-</button>
-
-<script>
-  var aud = document.getElementById("ASong").children[0];
-  var isPlaying = false;
-  aud.pause();
-
-  function playPause() {
-    if (isPlaying) {
-      aud.pause();
-    } else {
-      aud.play();
-    }
-    isPlaying = !isPlaying;
-  }
-</script>
-
-<HR />
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis mi at est rutrum, id pellentesque est porttitor. Integer sodales, nulla in iaculis venenatis, lacus nisl placerat metus, sed bibendum odio justo at urna. Ut dapibus porttitor mauris, et dignissim eros lobortis eu. Vivamus tortor ex, consequat malesuada sollicitudin ac, ultrices eu eros. Nulla nec sem leo. Ut at sodales urna. Quisque mi mi, luctus in augue et, bibendum facilisis quam. Pellentesque sagittis felis lorem, vel scelerisque diam faucibus ut. Mauris feugiat neque non suscipit pulvinar. Pellentesque posuere ligula non fringilla sagittis. Suspendisse metus nibh, eleifend quis ex a, lobortis congue orci.</p>
 <br />
@@ -85,5 +70,5 @@ Life is hard, be harder <br></EM>
 </h2>
 
 <h1><a href="./public/spooky.html"> ONLY BRAVE BOYS SHOULD CLICK THIS LINK!!!</a></h1>
-
+</body>
 </html>

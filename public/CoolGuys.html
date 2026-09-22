@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <a href="../index.html"> "< Back"</a>
+    <title>COOL GUY ZONE</title>
+</head>
+<body>
+    <h2>HEY CLICK THIS COOL GUY</h2>
+<button id="ASong" onClick="playPause()">
+  <audio
+    src="../Assets/coolguy.mp3"
+    autoplay
+  ></audio>
+  <img width="300" height="550"    src="../Assets/Cool Guy.jpg" alt="What the hell are you talking about?"/>
+</button>
+
+<script>
+  var aud = document.getElementById("ASong").children[0];
+  var isPlaying = false;
+  aud.pause();
+
+  function playPause() {
+    if (isPlaying) {
+      aud.pause();
+    } else {
+      aud.play();
+    }
+    isPlaying = !isPlaying;
+  }
+</script>
+</body>
+</html>
+
+
