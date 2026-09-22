@@ -4,4 +4,8 @@ html {
     text-align: center;
     list-style-position: inside;
     font-family: sans-serif;
+    .backbutton {
+        align-items: left;
+        color:white;
+    }
 }
